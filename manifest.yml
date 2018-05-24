@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: engwechuli-iot
+  host: engwechuli-iot
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - engwechuli-iot-iotf-service
+  - engwechuli-iot-cloudantNoSQLDB
